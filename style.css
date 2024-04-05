@@ -20,7 +20,15 @@ margin-left: 900px;
 }
 #top1{
     display: flex;
+    gap: 120px;
     text-align: center;
+    background-image: url('images/images\ \(15\).jpeg');
+    width: 600px;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    
 }
 #top{
    color: black; 
@@ -59,6 +67,7 @@ margin-left: 900px;
     display: flex;
     gap: 6%;
     margin-left: 500px;
+    margin-top: 5%;
 
 }
 #word2{
@@ -73,13 +82,9 @@ margin-left: 900px;
 }
 #page4{
     text-align: center;
-}
-#page4{
 margin-top: 3%;
 }
-#immg{
-    
-}
+
 #raw1{
     display: flex ;
     justify-content: space-around;
@@ -123,6 +128,10 @@ margin-top: 3%;
     display: flex;
     justify-content: space-around;
     margin-top: 5%;
+}
+button{
+    background-color: green;
+    
 }
 
 @media all and (min-width: 200px) and (max-width:1024px){
