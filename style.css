@@ -1,4 +1,11 @@
-#topnav{
+
+.body{
+
+}
+#pic1{
+
+}
+    #topnav{
     display: flex;
     gap :3%;
     margin-bottom: 0px;
@@ -13,10 +20,13 @@ margin-left: 900px;
 }
 #top1{
     display: flex;
+    text-align: center;
 }
 #top{
    color: black; 
-   display: ;
+   margin-left: 600px;
+
+   
 }
 #list{
     display: block;
@@ -98,3 +108,160 @@ margin-top: 3%;
     display: flex;
     justify-content: space-around;
 }
+#raw5{
+    text-align: center;
+}
+#page7{
+    display: flex;
+    justify-content: space-around;
+}
+#raw6{
+    text-align: center;
+    margin-top: 5%;
+}
+#footer{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+}
+
+@media all and (min-width: 200px) and (max-width:1024px){
+    body {
+     margin-left: 0px;
+     margin-right: 0px; 
+      margin-top: 0px;
+     margin-bottom:0px; 
+     width: 100%;
+     height: 100%;
+   } 
+   #topnav{
+    font-size: xx-small;
+    display: flex;
+    flex-wrap: wrap;
+    gap :3%;
+    margin-bottom: 0px;
+    background-color: rgb(38, 160, 13);
+    position: fixed;
+    top: 0;
+    width: 80%; 
+    
+}
+#pic1{
+    width: 50%;
+}
+
+ #select{
+    margin-left: 900px;
+    }
+    #top1{
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    #top{
+       color: black; 
+       margin-left: 600px;
+    
+       
+    }
+    #list{
+        display: block;
+        margin-left: 300px;
+    }
+    #img1{
+        display: flex;
+        gap: 3%;
+        margin-left: 300px;
+        margin-top: 5%;
+    }
+    #img2{
+        display: flex;
+        gap: 5%;
+        margin-top: 5%;
+    }
+    #m{
+        display: block;
+    }
+    #n{
+        display: flex;
+        gap: 5%;
+    }
+    #d{
+        display: flex;
+        gap: 5%;
+    }
+    #words{
+        text-align: center;
+        display: flex;
+        gap: 6%;
+        margin-left: 500px;
+    
+    }
+    #word2{
+        text-align: center;
+    }
+    #page3{
+        display: flex;
+        gap: 5%;
+    }
+    #texts{
+        font-size: xx-large;
+    }
+    #page4{
+        text-align: center;
+    }
+    #page4{
+    margin-top: 3%;
+    }
+    #immg{
+        
+    }
+    #raw1{
+        display: flex ;
+        justify-content: space-around;
+        margin-top: 5%;
+        /* gap: 5%; */
+    }
+    #raw2{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 5%;
+        /* gap: 5%; */
+    }
+    #raw3{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 5%;
+        /* gap: 5%; */
+    }
+    #page5{
+        display: flex;
+        gap: 5%;
+        margin-top: 5%;
+        margin-left: 200px;
+    }
+    #page6{
+        display: flex;
+        justify-content: space-around;
+    }
+    #raw5{
+        text-align: center;
+    }
+    #page7{
+        display: flex;
+        justify-content: space-around;
+    }
+    #raw6{
+        text-align: center;
+        margin-top: 5%;
+    }
+    #footer{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 5%;
+    }
+
+
+
+
+} 
